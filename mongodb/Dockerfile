@@ -1,0 +1,8 @@
+# BASE IMAGE
+FROM mongo:3.4.7
+
+ENV MONGO_INITDB_ROOT_USERNAME admin
+ENV MONGO_INITDB_ROOT_PASSWORD 1111
+ENV MONGO_INITDB_DATABASE shoppers
+
+ADD ./data/shoppers.js /docker-entrypoint-initdb.d
