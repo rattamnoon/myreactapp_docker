@@ -18,7 +18,9 @@ function App() {
         data?.map((element) => {
           return (
             <div key={element._id} style={{ textAlign: "center", margin: 5 }}>
-              <h2>{`ชื่อ: ${element.productName}`}</h2>
+              <h2
+                style={{ fontWeight: 900 }}
+              >{`ชื่อ: ${element.productName}`}</h2>
               <p>{`ราคา: ${element.unitPrice}`}</p>
             </div>
           );
