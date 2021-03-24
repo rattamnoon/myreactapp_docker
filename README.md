@@ -1,5 +1,11 @@
 # myreactapp_docker
 
+
+- start docker-compose up -d --build
+- del docker-compose down
+- stop docker-compose stop
+- view logs docker logs <name>
+
 docker system info // chcek ข้อมูล docker in macchine  
 docker system df // chcek ฐานข้อมูลที่ใช้ไปทั้งหมด  
 docker system events // show detail in server ใช้ view ตอนที่มี ปัญหา
